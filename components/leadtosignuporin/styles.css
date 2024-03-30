@@ -1,0 +1,209 @@
+/* start landing */
+.container {
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing {
+
+
+    background-color: white;
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .container {
+
+
+
+} */
+
+.image {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+
+}
+
+.overlay2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 20%);
+
+    z-index: 99;
+
+
+}
+
+.overlay {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+
+    z-index: 1;
+    display: block;
+}
+
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 50%;
+    /* when it's responsive works */
+    padding: 50px;
+    background-color: var(--transperant-color);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-50%);
+    max-width: 100%;
+}
+
+@media(max-width:767px) {
+    .text {
+        width: 100%;
+    }
+}
+
+.text .content {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.text .content h2 {
+    font-size: 28px;
+    line-height: 1.;
+}
+
+.text .content p {
+    .text .content p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+}
+
+@media (max-width:767px) {
+    .text {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .text .content {
+        max-width: 100%;
+    }
+
+    .change-background.fa-angle-left,
+    .change-background.fa-angle-right {
+        display: none;
+    }
+
+
+}
+
+.change-background {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-size: 20px;
+    color: #ddd;
+}
+
+.change-background.fa-angle-left {
+    left: 30px;
+}
+
+.change-background.fa-angle-right {
+    right: 30px;
+}
+
+.bullets {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    display: flex;
+}
+
+.bullets li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 5px;
+}
+
+.bullets .active-bullet {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.font-size-text {
+    font-size: 28px;
+}
+
+.buttons-Sign-Up {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    row-gap: 20px;
+    margin-left: 50%;
+    column-gap: 10px;
+
+    transform: translate(-60%, 0%);
+    -webkit-transform: translate(-60%, 0%);
+    -moz-transform: translate(-60%, 0%);
+    -ms-transform: translate(-60%, 0%);
+    -o-transform: translate(-50%, 0%);
+    margin-top: 20px;
+}
+
+.buttons-Sign-Up button {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #ff4d00;
+    color: white;
+    padding: 5px;
+
+
+
+}
+
+
+/* end landing */
